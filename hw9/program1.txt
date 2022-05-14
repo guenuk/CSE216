@@ -1,0 +1,10 @@
+//program square test
+//(a + b)^2 = a*a + 2*a*b + b*b
+{
+    read a 
+    read b
+    c := a + b
+    write c * c
+    write a*a + 2*a*b + b*b
+    write a*a + 2*a*b + b*b - c*c
+}
